@@ -149,7 +149,7 @@ button:hover {
   }
 }
 
-@media (width < 394px) {
+@media (width < 500px) {
   .title > img {
     width: 330px;
     padding-top: 80px;
