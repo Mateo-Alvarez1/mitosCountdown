@@ -166,6 +166,7 @@ button:hover {
   .comunidadTitle {
     margin-top: 20px;
     font-size: 50px;
+    padding: 20px;
   }
   .social {
     flex-direction: column;
