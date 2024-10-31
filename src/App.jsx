@@ -1,5 +1,5 @@
 import React from "react";
-import summer from "/src/assets/SUMMER.png";
+import summer from "/src/assets/SUMMER.webp";
 import ig from "./assets/ig.svg";
 import world from "./assets/world.svg";
 import Countdown from "react-countdown";
