@@ -4,12 +4,13 @@ import ig from "./assets/ig.svg";
 import world from "./assets/world.svg";
 import Countdown from "react-countdown";
 export const App = () => {
-  const endDate = new Date("2024-11-09T18:00:00");
+  const endDate = new Date("2024-11-01T12:42:00");
 
   // Función personalizada para renderizar el countdown
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
       // Muestra un mensaje o realiza alguna acción cuando el tiempo se agote
+      window.location.href = "https://mitoscompany.com/";
       return <span>¡El tiempo se ha agotado!</span>;
     } else {
       // Renderiza el countdown
@@ -60,16 +61,18 @@ export const App = () => {
         <h3 className="comunidadTitle footerTitle">SUMMER TROPIC</h3>
         <div className="iconContainer">
           <a href="https://www.instagram.com/mitos_ar/" target="blank">
-            <img src={ig} alt="instagram" className="socialImage" />
+            <img
+              src={ig}
+              alt="instagram"
+              className="socialImage"
+              style={{
+                marginRight: "5px",
+              }}
+            />
           </a>
           <a href="https://mitoscompany.com/" target="blank">
             {" "}
-            <img
-              src={world}
-              alt="world"
-              style={{ width: "40px" }}
-              className="socialImage"
-            />
+            <img src={world} alt="world" className="socialImage world" />
           </a>
         </div>
         <p className="socialp">ORIGINAL MITOS COMPANY</p>
