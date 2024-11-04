@@ -54,7 +54,9 @@ export const App = () => {
             <span className="span">San Juan</span>
           </h3>
 
-          <button>ACCESO ANTICIPADO</button>
+          <a href="https://forms.gle/8MNd39wVoX1ZTHc67" target="blank">
+            <button>ACCESO ANTICIPADO</button>
+          </a>
         </div>
       </div>
       <div className="social">
