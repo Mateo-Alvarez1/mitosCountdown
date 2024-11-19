@@ -4,7 +4,7 @@ import ig from "./assets/ig.svg";
 import world from "./assets/world.svg";
 import Countdown from "react-countdown";
 export const App = () => {
-  const endDate = new Date("2024-11-09T18:00:00");
+  const endDate = new Date("2024-11-23T18:00:00");
 
   // Función personalizada para renderizar el countdown
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
@@ -54,7 +54,7 @@ export const App = () => {
             <span className="span">San Juan</span>
           </h3>
 
-          <a href="https://forms.gle/8MNd39wVoX1ZTHc67" target="blank">
+          <a href="https://forms.gle/LQV3uKGzSKqnncT86" target="blank">
             <button>ACCESO ANTICIPADO</button>
           </a>
         </div>
