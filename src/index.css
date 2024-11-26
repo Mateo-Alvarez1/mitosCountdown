@@ -75,6 +75,10 @@ html {
   font-size: 20px;
 }
 
+.acceso {
+  color: #171717;
+}
+
 button {
   font-family: "Bebas Neue", sans-serif;
   background: transparent;
