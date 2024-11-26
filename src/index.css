@@ -25,7 +25,7 @@ html {
 
 .timer {
   background: transparent;
-  color: #dbac2e;
+  color: #f59d29;
 }
 
 #cuenta {
@@ -59,7 +59,7 @@ html {
 }
 
 .span {
-  color: #dbac2e;
+  color: #f59d29;
   background: transparent;
 }
 
@@ -89,19 +89,19 @@ button {
   margin-bottom: 10px;
   border: none;
   outline: none;
-  background-color: #dbac2e;
+  background-color: #f59d29;
   border-radius: 5px;
 }
 
 button:hover {
-  outline: 2px solid #dbac2e;
+  outline: 2px solid #f59d29;
   background: transparent;
-  color: #dbac2e;
+  color: #f59d29;
   transition: all 0.2s;
 }
 
 .social {
-  background-color: #dbac2e;
+  background-color: #f59d29;
   align-items: center;
   display: flex;
   justify-content: space-around;

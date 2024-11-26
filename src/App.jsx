@@ -1,5 +1,5 @@
 import React from "react";
-import summer from "/src/assets/SUMMER.webp";
+import summer from "/src/assets/SUMMER.png";
 import ig from "./assets/ig.svg";
 import world from "./assets/world.svg";
 import Countdown from "react-countdown";
@@ -11,7 +11,7 @@ export const App = () => {
     if (completed) {
       // Muestra un mensaje o realiza alguna acción cuando el tiempo se agote
       window.location.href = "https://mitoscompany.com/";
-      return <span style={{ color: "#dbac2e" }}>DROP OUT IN THE CITY</span>;
+      return <span style={{ color: "#f59d29" }}>DROP OUT IN THE CITY</span>;
     } else {
       // Renderiza el countdown
       return (
